@@ -4,30 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registration</title>
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
-<body>
+<body style="width: 500px; height: 656px; border: 1px solid black">
      <header>
-        <div style="display: flex; flex-direction: row; justify-content: flex-end;">
+        <div style="display: flex; flex-direction: row; justify-content: flex-end;" class="x">
             <img src="../images/X.png" alt="close" title="close" onclick="window.location.href='../index.html'">
         </div>
         <nav class="forms">
             <a href="./authorization.html">Login</a>
+            <abbr title="Line">|</abbr>
             <a href="registration.html">Register</a>
         </nav>
     </header>
     <main>
         <section>
             <h4>Enter your email and password to register</h4>
-            <form action="/submit" method="post" style="display: flex; flex-direction: column; gap: 16px;">
-                <label for="username">Username:</label>
+            <form action="/submit" method="post" style="display: flex; flex-direction: column">
+                <label for="username" hidden>Username</label>
                 <input type="text" placeholder="Username" name="username" required>
-                <label for="email">Email:</label>
+                <label for="email" hidden>Email</label>
                 <input type="email" placeholder="Enter your email address" name="email" required>
-                <label for="password">Password:</label>
+                <label for="password" hidden>Password</label>
                 <input type="password" placeholder="Password" name="password" required>
-                <label for="confirm_password">Confirm Password:</label>
+                <label for="confirm_password" hidden>Confirm Password</label>
                 <input type="password" placeholder="Confirm Password" name="confirm_password" required>
-                <input type="submit" value="Register">
+                <input type="submit" value="Register" class="submit_button">
             </form>
         </section>
         <section>
