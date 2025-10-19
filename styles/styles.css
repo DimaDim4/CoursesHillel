@@ -122,17 +122,21 @@
     padding: 12px 221px 12px 14px;
 }
 .btn {
-    display: flex;
-    justify-content: center;
+    margin: 0 100px 36px 100px;
     background-color: #46A358;
     border: 1px solid #46A358;
     border-radius: 5px;
-    color: white;
-    padding: 15px 118px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit_button {
     font-size: 16px;
-    margin: 40px 100px;
+    background-color: #46A358;
     cursor: pointer;
     font-family: "Cera Pro Bold", sans-serif;
+    color: #FFFFFF;
+    padding: 16px 118px 16px 118px;
 }
 .register_with>h4 {
     color: #3D3D3D;
@@ -148,7 +152,7 @@
     justify-content: center;
     border: #EAEAEA 1px solid;
     border-radius: 5px;
-    padding: 11px 68px 11px 68px;
+    padding: 11px 0 11px 0;
     margin: 0 100px 15px 100px;
     cursor: pointer;
     gap: 9px;
@@ -164,7 +168,7 @@
     justify-content: center;
     border: #EAEAEA 1px solid;
     border-radius: 5px;
-    padding: 11px 68px 11px 68px;
+    padding: 11px 0 11px 0;
     margin: 0 100px 40px 100px;
     cursor: pointer;
     gap: 4px;
@@ -177,4 +181,10 @@
     padding: 0;
     margin: 0;
     border: 5px solid #46A358;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    max-height: 656px;
 }
