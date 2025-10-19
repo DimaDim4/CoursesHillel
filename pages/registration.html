@@ -6,48 +6,62 @@
     <title>registration</title>
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
-<body style="width: 500px; height: 656px; border: 1px solid black">
-     <header>
-        <div style="display: flex; flex-direction: row; justify-content: flex-end;" class="x">
+<body>
+     <header class="header">
+        <div class="x">
             <img src="../images/X.png" alt="close" title="close" onclick="window.location.href='../index.html'">
         </div>
-        <nav class="forms">
-            <a href="./authorization.html">Login</a>
-            <abbr title="Line">|</abbr>
-            <a href="registration.html">Register</a>
-        </nav>
+        <div class="nav">
+            <nav>
+                <a href="./authorization.html">Login</a>
+                <span title="Line">|</span>
+                <a href="registration.html">Register</a>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section>
-            <h4>Enter your email and password to register</h4>
-            <form action="/submit" method="post" style="display: flex; flex-direction: column">
-                <label for="username" hidden>Username</label>
-                <input type="text" placeholder="Username" name="username" required>
-                <label for="email" hidden>Email</label>
-                <input type="email" placeholder="Enter your email address" name="email" required>
-                <label for="password" hidden>Password</label>
-                <input type="password" placeholder="Password" name="password" required>
-                <label for="confirm_password" hidden>Confirm Password</label>
-                <input type="password" placeholder="Confirm Password" name="confirm_password" required>
-                <input type="submit" value="Register" class="submit_button">
+    <main class="main">
+        <div class="form">
+            <div class="title1">
+                <h4>Enter your email and password to register</h4>
+            </div>
+            <form action="/submit" method="post">
+                <div class="username">
+                    <label for="username" hidden>Username</label>
+                    <input type="text" placeholder="Username" name="username" required>
+                </div>
+                <div class="email">
+                    <label for="email" hidden>Email</label>
+                    <input type="email" placeholder="Enter your email address" name="email" required>
+                </div>
+                <div class="password">
+                    <label for="password" hidden>Password</label>
+                    <input type="password" placeholder="Password" name="password" required>
+                    <img src="../images/Hide.png" alt="close" title="close" >
+                </div>
+                <div class="confirm_password">
+                    <label for="confirm_password" hidden>Confirm Password</label>
+                    <input type="password" placeholder="Confirm Password" name="confirm_password" required>
+                </div>
+                <div class="btn">
+                    <input type="submit" value="Register" class="submit_button">
+                </div>
             </form>
-        </section>
-        <section>
+        </div>
+        <div class="register_with">
             <h4>Or register with</h4>
-            <div>
-                <div>
+                <div class="google">
                     <img src="../images/google 1.jpg" alt="google" title="Continue with Google">
                     <a href="https://accounts.google.com/signup">Continue with Google</a>
                 </div>
-                <div>
+                <div class="facebook">
                     <img src="../images/facebook 1.png" alt="facebook" title="Continue with Facebook">
                     <a href="https://www.facebook.com/r.php">Continue with Facebook</a>
                 </div>
-            </div>
-        </section>
+        </div>
     </main>
     <footer>
-
+        <div class="footer">
+        </div>
     </footer>
 </body>
 </html>
