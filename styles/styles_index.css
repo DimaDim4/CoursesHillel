@@ -88,7 +88,7 @@
     cursor: pointer;
     font-family: "Cera Pro Bold", sans-serif;
 }
-.main {
+.intro {
     display: flex;
     justify-content: space-between;
     gap: 123px;
@@ -143,4 +143,121 @@ button.shop_bttn {
 .shop_img {
     width: 507px;
     height: 450px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.vert_menu{
+    display: flex;
+    flex-direction: column;
+    background-color: #FBFBFB;
+}
+.vert_menu_tittle{
+    padding: 14px 0 0 40px;
+}
+.vert_nav_list {
+    padding: 7px 0 377px 40px;
+}
+.vert_nav_item {
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 15px;
+    padding: 10px 0 15px 0;
+}
+.vert_nav_item:hover {
+    cursor: pointer;
+    font-family: "Cera Pro Bold", sans-serif;
+    color: #46A358;
+}
+.sale_banner {
+ 
+}
+.sale_banner_img {
+    width: 310px;
+    height: 470px;
+}
+.general {
+    display: flex;
+    flex-direction: column;
+}
+.main_nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 15px;
+    color: #3D3D3D;
+}
+.main_nav_list {
+    display: flex;
+    gap: 37px;
+}
+.main_nav_item {
+    padding: 0 0 4px 0px;
+    border-bottom: 3px solid transparent;
+}
+.main_nav_item:hover {
+    border-bottom: 3px solid #46A358;
+    cursor: pointer;
+    font-family: "Cera Pro SemiBold", sans-serif;
+}
+.filter {
+    display: flex;
+    padding: 0 0 7px 0;
+}
+.arrow_down_img {
+    width: 16px;
+    height: 16px;
+}
+.main_content{
+    display: flex;
+    padding: 30px 0 90px 0;
+}
+.goods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+.unit {
+    padding: 0 0 41px 0;
+}
+.unit_pic {
+    min-width: 258px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.unit_name {
+    font-family: "Cera Pro Light", sans-serif;
+    font-size: 16px;
+    color: #3D3D3D;
+    padding: 12px 0 6px 4px;
+}
+.price {
+    font-family: "Cera Pro Bold", sans-serif;
+    font-size: 18px;
+    color: #46A358;
+    padding: 0 0 4px 4px;
+}
+.page_selector {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    padding: 38px 120px 90px 120px;
+}
+.PSbutton, .PSbutton1 {
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+    background-color: #FFFFFF;
+    color: #3D3D3D;
+    width: 35px;
+    height: 35px;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 18px;
+}
+.PSbutton:active {
+    background-color: #46A358;
+    font-family: "Cera Pro Bold", sans-serif;
+    color: white;
 }
