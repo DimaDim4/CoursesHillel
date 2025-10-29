@@ -127,8 +127,6 @@ p.shop_text {
 }
 button.shop_bttn {
     display: flex;
-    /* max-width: 140px;
-    max-height: 40px; */
     border-radius: 6px;
     border: none;
     background-color: #46A358;
@@ -155,9 +153,6 @@ button.shop_bttn {
     flex-direction: column;
     background-color: #FBFBFB;
 }
-/* .vert_menu_tittle{
-    padding: 14px 0 0 40px;
-} */
 .vert_maenu_list {
     display: flex;
     flex-direction: column;
@@ -165,9 +160,6 @@ button.shop_bttn {
     padding: 14px 40px;
     margin-bottom: 353px;
 }
-/* .vert_nav_list {
-    padding: 7px 0 377px 40px;
-} */
 .vert_nav_item {
     font-family: "Cera Pro Regular", sans-serif;
     font-size: 15px;
@@ -178,9 +170,6 @@ button.shop_bttn {
     font-family: "Cera Pro Bold", sans-serif;
     color: #46A358;
 }
-/* .sale_banner {
- 
-} */
 .sale_banner_img {
     width: 310px;
     height: 470px;
@@ -231,8 +220,6 @@ button.shop_bttn {
     padding: 0 0 4px 0;
 }
 .unit_pic {
-    /* min-width: 258px;
-    min-height: 300px; */
     display: flex;
     justify-content: center;
     align-content: center;
@@ -247,7 +234,6 @@ button.shop_bttn {
     font-family: "Cera Pro Light", sans-serif;
     font-size: 16px;
     color: #3D3D3D;
-
 }
 .price {
     font-family: "Cera Pro Bold", sans-serif;
