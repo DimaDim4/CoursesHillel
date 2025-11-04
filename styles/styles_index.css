@@ -326,9 +326,6 @@ button.shop_bttn {
     font-family: "Cera Pro Regular", sans-serif;
     font-size: 14px;
 }
-.blog {
-
-}
 .blog_title {
     display: flex;
     flex-direction: column;
